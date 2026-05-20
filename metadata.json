@@ -1,0 +1,8 @@
+{
+  "name": "ChurnSentry - Customer Churn Predictor",
+  "description": "An enterprise-grade ML SaaS platform that predicts customer churn, trains classification models in real-time, and provides premium analytics with AI-driven retention strategies. Developed by Paul Sarfo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "users": [
+    {
+      "id": "admin-id",
+      "email": "admin@churnpredictor.com",
+      "passwordHash": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+      "fullName": "Alex Rivera",
+      "role": "admin",
+      "createdAt": "2026-04-20T22:54:09.762Z",
+      "settings": {
+        "notificationsEnabled": true,
+        "darkMode": true,
+        "autoInsightGeneration": true
+      }
+    }
+  ],
+  "predictions": [
+    {
+      "id": "pred-1779317687610",
+      "userId": "admin-id",
+      "customerName": "pau",
+      "email": "pa@gmail.com",
+      "features": {
+        "customerName": "pau",
+        "email": "pa@gmail.com",
+        "tenure": 12,
+        "usageFrequency": 50,
+        "supportTickets": 2,
+        "monthlyCharges": 79.99,
+        "contractType": "month_to_month",
+        "paymentMethod": "credit_card"
+      },
+      "churnProbability": 73.6,
+      "riskCategory": "High",
+      "topDrivers": [
+        "Flexible Month-to-month Contract Risk",
+        "Short Customer Tenure"
+      ],
+      "aiRecommendations": "Based on our machine learning algorithm, **pau** is at high risk (73.6%) of churning. The top risk parameters are: **Flexible Month-to-month Contract Risk, Short Customer Tenure**.\n\n### Recommended Action Items:\n1. **Urgent Account Review:** Reach out to the client within 24 hours. Given they have logged **2 support tickets** this month, there's likely a technical block or training frustration in progress.\n2. **Onboarding / Coaching Reboot:** Offer a complimentary 1-on-1 account health review with a Customer Success Manager.\n3. **Incentivize Term Commitment:** Transitioning the client from their current **month to month** plan to a term contract with financial incentive (e.g., 2 months free) will improve brand security.\n4. **Engineering Escalation:** Verify if there are currently any unresolved bugs associated with their email profile (**pa@gmail.com**).",
+      "createdAt": "2026-05-20T22:54:47.610Z"
+    },
+    {
+      "id": "pred-1",
+      "userId": "admin-id",
+      "customerName": "Acme Corp (Sarah Jenkins)",
+      "email": "sarah@acme.com",
+      "features": {
+        "customerName": "Acme Corp (Sarah Jenkins)",
+        "email": "sarah@acme.com",
+        "tenure": 4,
+        "usageFrequency": 15,
+        "supportTickets": 8,
+        "monthlyCharges": 119.99,
+        "contractType": "month_to_month",
+        "paymentMethod": "electronic_check"
+      },
+      "churnProbability": 84.7,
+      "riskCategory": "High",
+      "topDrivers": [
+        "High Support Tickets Volume",
+        "Short Customer Tenure"
+      ],
+      "aiRecommendations": "Based on our machine learning analysis, Sarah is at extremely high risk of churning due to a combination of short tenure (4 months) and high support tickets (8 in the last month). **Immediate Actions Required:**\n\n1. **Direct Outreach:** Schedule a priority support resolution call within 24 hours to address ongoing complaints.\n2. **Financial Incentive:** Offer a 20% loyalty discount in exchange for transitioning to a 1-year contract to improve security and relationship length.\n3. **Success Audit:** Assign a Dedicated Success Representative to audit their ticket complaints.",
+      "createdAt": "2026-05-20T18:54:09.764Z"
+    },
+    {
+      "id": "pred-2",
+      "userId": "admin-id",
+      "customerName": "GlobalTech Solutions",
+      "email": "contact@globaltech.io",
+      "features": {
+        "customerName": "GlobalTech Solutions",
+        "email": "contact@globaltech.io",
+        "tenure": 36,
+        "usageFrequency": 88,
+        "supportTickets": 1,
+        "monthlyCharges": 350,
+        "contractType": "two_year",
+        "paymentMethod": "credit_card"
+      },
+      "churnProbability": 8.2,
+      "riskCategory": "Low",
+      "topDrivers": [
+        "Long Customer Tenure",
+        "High Usage Frequency"
+      ],
+      "aiRecommendations": "The customer is in excellent health with a very low churn probability (8.2%). They have high tenure (36 months) and steady monthly logs. **Recommended Strategy:**\n\n1. **Advocacy Program:** Pitch them for a reference study or case study highlighting their ROI.\n2. **Expansion/Upsell:** Discuss multi-seat team expansions at their upcoming quarterly business review.",
+      "createdAt": "2026-05-20T10:54:09.764Z"
+    },
+    {
+      "id": "pred-3",
+      "userId": "admin-id",
+      "customerName": "Vanguard Partners",
+      "email": "operations@vanguard.com",
+      "features": {
+        "customerName": "Vanguard Partners",
+        "email": "operations@vanguard.com",
+        "tenure": 12,
+        "usageFrequency": 45,
+        "supportTickets": 4,
+        "monthlyCharges": 89,
+        "contractType": "month_to_month",
+        "paymentMethod": "bank_transfer"
+      },
+      "churnProbability": 48.5,
+      "riskCategory": "Medium",
+      "topDrivers": [
+        "Month-to-month Contract Risk",
+        "Moderate Support Tickets"
+      ],
+      "aiRecommendations": "Moderate risk churn alert (48.5%). Their month-to-month flexibility leaves them exposed to competitive offers. **Retention Recommendations:**\n\n1. **Contract Lock-In:** Propose transitioning to a 1-year annual agreement with 2 months free. This completely mitigates contract risk.\n2. **Health Check:** Reach out to check user satisfaction on recent support interactions.",
+      "createdAt": "2026-05-19T22:54:09.764Z"
+    },
+    {
+      "id": "pred-4",
+      "userId": "admin-id",
+      "customerName": "Hale Industries",
+      "email": "billing@haleind.org",
+      "features": {
+        "customerName": "Hale Industries",
+        "email": "billing@haleind.org",
+        "tenure": 2,
+        "usageFrequency": 82,
+        "supportTickets": 6,
+        "monthlyCharges": 199,
+        "contractType": "month_to_month",
+        "paymentMethod": "electronic_check"
+      },
+      "churnProbability": 76.2,
+      "riskCategory": "High",
+      "topDrivers": [
+        "Short Customer Tenure",
+        "High Support Tickets Volume"
+      ],
+      "aiRecommendations": "High churn hazard detected (76.2%). Hale Industries is in early onboarding struggles. **Retention Strategy:**\n\n1. **Urgent Intervention:** Escalate recent open bugs. High usage frequency (82) shows they are trying to engage, but blocking support issues are frustrating them.\n2. **Onboarding Reset:** Offer a complimentary 1-on-1 coaching session.",
+      "createdAt": "2026-05-18T22:54:09.764Z"
+    },
+    {
+      "id": "pred-5",
+      "userId": "admin-id",
+      "customerName": "Lumina Labs",
+      "email": "info@luminalabs.dev",
+      "features": {
+        "customerName": "Lumina Labs",
+        "email": "info@luminalabs.dev",
+        "tenure": 18,
+        "usageFrequency": 72,
+        "supportTickets": 2,
+        "monthlyCharges": 49,
+        "contractType": "one_year",
+        "paymentMethod": "credit_card"
+      },
+      "churnProbability": 18.9,
+      "riskCategory": "Low",
+      "topDrivers": [
+        "Healthy Contract Terms",
+        "Low Support Interventions"
+      ],
+      "aiRecommendations": "Lumina Labs is a solid customer. Churn risk is small (18.9%) thanks to an active annual lease and low support ticket activity. No protective action is required currently.",
+      "createdAt": "2026-05-17T22:54:09.764Z"
+    }
+  ],
+  "modelState": {
+    "isTrained": true,
+    "accuracy": 87.2,
+    "precision": 92.7,
+    "recall": 72.9,
+    "f1Score": 81.6,
+    "confusionMatrix": {
+      "trueNegative": 106,
+      "falsePositive": 4,
+      "falseNegative": 19,
+      "truePositive": 51
+    },
+    "trainedAt": "2026-05-20T22:55:29.505Z",
+    "hyperparams": {
+      "epochs": 220,
+      "learningRate": 0.05
+    },
+    "weights": {
+      "bias": -0.22345284196124807,
+      "tenure": -0.7298492837533513,
+      "usageFrequency": -0.7533084518841082,
+      "supportTickets": 0.69093138562809,
+      "monthlyCharges": -0.006377118891540437,
+      "contract_month_to_month": 0.7465840442831646,
+      "contract_one_year": -0.441505854908062,
+      "contract_two_year": -0.5285310313363507,
+      "payment_electronic_check": 0.15976032777372964,
+      "payment_mailed_check": -0.1691597039677878,
+      "payment_bank_transfer": -0.25308364142638656,
+      "payment_credit_card": -0.11096982434080366
+    }
+  },
+  "activityLogs": [
+    {
+      "id": "log-1779317729509-625",
+      "userId": "admin-id",
+      "userEmail": "admin@churnpredictor.com",
+      "action": "Retrained ML Model",
+      "details": "Retrained logistic classifier successfully. Epochs: 220 | Accuracy: 87.2%",
+      "timestamp": "2026-05-20T22:55:29.509Z"
+    },
+    {
+      "id": "log-1779317687614-968",
+      "userId": "admin-id",
+      "userEmail": "admin@churnpredictor.com",
+      "action": "Calculated Customer Prediction",
+      "details": "Evaluated churn for pau. Calculated Risk: 73.6% (High)",
+      "timestamp": "2026-05-20T22:54:47.614Z"
+    },
+    {
+      "id": "log-1779317653709-268",
+      "userId": "admin-id",
+      "userEmail": "admin@churnpredictor.com",
+      "action": "User Login",
+      "details": "Authenticated user successfully via JWT",
+      "timestamp": "2026-05-20T22:54:13.709Z"
+    },
+    {
+      "id": "log-1",
+      "userId": "admin-id",
+      "userEmail": "admin@churnpredictor.com",
+      "action": "Database Initialized",
+      "details": "Seed database preloaded with initial users, history and trained model coefficients",
+      "timestamp": "2026-05-20T12:54:09.765Z"
+    },
+    {
+      "id": "log-2",
+      "userId": "admin-id",
+      "userEmail": "admin@churnpredictor.com",
+      "action": "ML Model Training",
+      "details": "ML model successfully trained on seed customer dataset over 100 epochs (Accuracy: 89.2%)",
+      "timestamp": "2026-05-15T22:54:09.765Z"
+    },
+    {
+      "id": "log-3",
+      "userId": "admin-id",
+      "userEmail": "admin@churnpredictor.com",
+      "action": "Single Customer Prediction",
+      "details": "Ran risk assessment for Sarah Jenkins (Acme Corp). Calculated high churn risk of 84.7%",
+      "timestamp": "2026-05-20T18:54:09.765Z"
+    }
+  ]
+}

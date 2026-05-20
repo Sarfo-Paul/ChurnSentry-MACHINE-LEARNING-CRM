@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-display: "Space Grotesk", sans-serif;
+}
+
+/* Base style resets to support smooth transitions and premium aesthetics */
+body {
+  @apply font-sans bg-[#0a0f1d] text-slate-100 min-h-screen antialiased selection:bg-indigo-500/30 selection:text-indigo-200 transition-colors duration-300;
+}
+
+/* Light mode support classes */
+.light-theme body {
+  @apply bg-[#f8fafc] text-slate-800;
+}
+
+/* Custom scrollbar to keep layout highly customized */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.2);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.4);
+}
+
+/* Glassmorphism custom components */
+.glass-panel {
+  @apply bg-slate-900/40 backdrop-blur-md border border-slate-800/60 shadow-xl;
+}
+
+.light-theme .glass-panel {
+  @apply bg-white/70 backdrop-blur-md border border-slate-200/80 shadow-md;
+}
+
+/* Custom indicator pulses */
+@keyframes cyber-pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(1.05);
+  }
+}
+
+.indicator-pulse {
+  animation: cyber-pulse 2s infinite ease-in-out;
+}
